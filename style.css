@@ -24,6 +24,7 @@ header {
     background-color: #fff;
     width: 100%;
     height: 9.4rem;
+    z-index: 5;
 }
 
 .header-container {
@@ -170,15 +171,29 @@ a {
 
 .goal-section {
     position: relative;
+    display: flex;
 }
-.goal-container {
-    /* margin: 13.75rem; */
-    padding: 5.6rem auto;
+.goal-title {
+    margin: 13.75rem auto;
+    /* padding: 5.6rem 0; */
     background-color: #f1fdff;
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+.goal-title h3 {
+    width: 45%;
+    margin: 5.6rem auto;
+    margin-left: 3.75rem;
 }
 .goal-back {
+    margin: 13.75rem auto;
     position: absolute;
+    right: 0;
+    bottom: 0;
 }
 .goal-kids {
+    margin: 13.75rem auto;
     position: absolute;
+    right: 5rem;
+    bottom: 0;
 }
